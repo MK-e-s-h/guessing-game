@@ -46,5 +46,10 @@ body {
   
   #attemptsLeft {
     color: white;
+
+      @media only screen and (max-width: 425px){
+    .container{
+    margin: auto; 
+   height: auto;
+  width: 90%;
   }
-  
