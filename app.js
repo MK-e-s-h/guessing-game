@@ -14,8 +14,8 @@ document.addEventListener("DOMContentLoaded", () => {
     submitGuess.addEventListener("click", () => {
       const userGuess = parseInt(guessInput.value);
   
-      if (isNaN(userGuess) || userGuess < 1 || userGuess > 100) {
-        feedback.textContent = "Please enter a valid number between 1 and 100.";
+      if (isNaN(userGuess) || userGuess < 1 || userGuess > 50) {
+        feedback.textContent = "Please enter a valid number between 1 and 50.";
         feedback.style.color = "red";
         return;
       }
