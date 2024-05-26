@@ -47,10 +47,20 @@ body {
   #attemptsLeft {
     color: white;
 
-      @media only screen and (max-width: 425px){
+      @media only screen and (max-width: 767px){
     .container{
     margin: 90%; 
    height: auto;
   width: 90%;
   }
+          /* Tablet styles */
+@media (max-width: 1023px) {
+    
+
+    .container {
+        width: 90%;
+        margin: 90%;
+        height: auto;
+    }
+}
       }
